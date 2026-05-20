@@ -1,0 +1,6 @@
+{
+  "name": "DevFlowCD",
+  "description": "No-Code Containerization Engine acting as a Control Plane bridging user inputs to Kubernetes and Tekton.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

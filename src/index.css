@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Elegant Dark Obsidian Theme Color Mapping */
+  --color-slate-950: #040508; /* Extremely deep void background */
+  --color-slate-900: #0b0c13; /* Deep surface panels */
+  --color-slate-905: #11131c; /* Refined block component background */
+  --color-slate-850: #1b1c26; /* Midnight border shade */
+  --color-slate-805: #1d1e2b; /* Midnight border shade */
+  --color-slate-800: #1b1d28; /* Card border */
+  --color-slate-700: #292b3c; /* Selected or high contrast frames */
+  --color-slate-600: #3b3e58; /* Muted boundaries */
+  --color-slate-550: #62657e;
+  --color-slate-505: #62657e;
+  --color-slate-500: #696b82; /* Muted texts */
+  --color-slate-455: #8c8ea9;
+  --color-slate-450: #8c8ea9;
+  --color-slate-400: #9395ad; /* Sub-info descriptions */
+  --color-slate-350: #b9bbc9;
+  --color-slate-300: #bfc1d4; /* Base contrast text */
+  --color-slate-250: #e2e4f0;
+  --color-slate-200: #e7e9f3;
+  --color-slate-100: #f3f4f8;
+
+  /* Custom Electric Violet Accents */
+  --color-violet-50: #f5f3ff;
+  --color-violet-100: #ede9fe;
+  --color-violet-400: #a78bfa; /* Light glow tone */
+  --color-violet-500: #8b5cf6;
+  --color-violet-600: #7c3aed; /* Vibrant Electric Violet CTL action color */
+  --color-violet-700: #6d28d9;
+  --color-violet-800: #5b21b6;
+  --color-violet-900: #4c1d95;
+  --color-violet-950: #1a103c;
+}
+
+/* Custom terminal scrollbars and glow animations */
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: #040508;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background: #1b1c26;
+  border-radius: 4px;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+
+/* Elegant glassmorphism backdrops & glow components */
+.elegant-glow {
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.12), inset 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.glow-btn:hover {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.35);
+}
+
+/* Custom general input glow and style refinements */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #7c3aed !important;
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.2) !important;
+}
+
+/* Table rows smooth styling transition */
+tr {
+  transition: all 150ms ease-in-out;
+}
+
+/* Global body styling to hold true Elegant Dark layout density */
+body {
+  background-color: #040508;
+  color: #bfc1d4;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
